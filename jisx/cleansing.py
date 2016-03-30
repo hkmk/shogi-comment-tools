@@ -50,7 +50,7 @@ with codecs.open(argvs[1], 'r', 'cp932') as f:
                 continue
             elif c in repl_map:
                 if not(repl_map[c] in jisx_list):
-                    sys.stderr.write('Replace map error:', c, '->', repl_map[c])
+                    sys.stderr.write('Replace map error: '+c+' -> '+repl_map[c])
                 else:
                     line_clean += repl_map[c]
                 continue
