@@ -1,7 +1,16 @@
 # shogi-comment-tools
 Tools for Shogi Commentary Corpus
 
-# get.sh
+# crawl-shogi.py
+Get Shogi game records with comments from <http://www.meijinsen.jp>.
+
+## Usage
+1. Become a paid member of <http://www.meijinse.jp>. (In Japanese)
+2. Run crawl-shogi.py
+  - --browser: choose your browser (for login information via cookie)
+  - --output_dir: output directory
+
+# get.sh (old)
 Get Shogi game records with comments from <http://www.meijinsen.jp>.
 Games are played by human experts and comments are written by human.
 
